@@ -11,7 +11,7 @@ submit.addEventListener("click",() =>{
               };
               postData(data);
        }else{
-              alert("Vui long nhap du content.")
+              alert("Vui long nhap du content.");
        }
 })
 async function postData(data){
