@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="./style.css">
+       <title>Login</title>
+</head>
+<body>
+       <div class="main">
+              <form action="" method="post" class="form" id="form-1">
+                     <br>
+                     <br>
+              <h3 class="logo-text" style="font-size: 30px">Đăng Ký</h3>
+              <div class="spacer"></div>
+              <div class="form-group">
+                     <label for="fullname" class="form-label">Tên đầy đủ</label>
+                     <input id="fullname" name="fullname" type="text" placeholder="vd:nguyenvan">
+                     <br>
+                     <span id="error_name" class="form-message"></span>
+              </div>
+              <div class="form-group">
+                     <label for="email" class="form-label">Email</label>
+                     <input onclick="" id="email" name="email" type="email" placeholder="vd:nam@gmail.com">
+                     <br>
+                     <span id="error_email" class="form-message"></span>
+              </div>
+              <div class="form-group">
+                     <label for="password" class="form-label">Password</label>
+                     <div class="password-input">
+                         <input id="password" name="password" type="password" placeholder="Nhập mật khẩu">
+                         <i class="mdieyeoff" id="show-pass"></i>
+                     </div>
+                     <span id="error_pass" class="form-message"></span>
+              </div>
+              <div class="form-group">
+                     <label for="repassword" class="form-label">Re-Password</label>
+                     <div class="password-input">
+                         <input id="repassword" name="repassword" type="password" placeholder="Nhập lại mật khẩu">
+                         <i class="mdieyeoff" id="show-repass"></i>
+                     </div>
+                     <span id="error_repass" class="form-message"></span>
+                     <br>
+              </div >
+              <br>
+              <button  class="btn" type="button">
+                     <strong id="submit">Đăng ký</strong>
+                     <div id="container-stars">
+                       <div id="stars"></div>
+                     </div>
+                   
+                     <div id="glow">
+                       <div class="circle"></div>
+                       <div class="circle"></div>
+                     </div>
+                   </button>
+              <br>
+              <div class="icon1">
+                     <div class="ion--logo-html5"></div>
+                     <div class="ion--logo-css3"></div>
+                     <div class="ion--logo-javascript"></div>
+                     <div class="radix-icons--github-logo"></div>
+              </div>
+              <div class="warring"><p id="warring"></p></div>
+              </form>
+       </div>
+       <script src="./main.js"></script>
+</body>
+</html>
