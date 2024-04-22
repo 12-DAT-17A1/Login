@@ -16,7 +16,7 @@ submit.addEventListener("click",() =>{
            alert("Bạn đã đăng ký thành công");
            alert("Email sẽ sớm gửi về máy bạn")
        if (namecustomer.value && email.value && password.value){
-              window.location.href = "https://mail.google.com/"
+              window.location.href = "./home.html"
               const data = {
                      name: namecustomer.value,
                      email: email.value,
