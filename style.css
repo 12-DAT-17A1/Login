@@ -22,9 +22,10 @@ background-size: cover;
    }
    
 .form-group {
-       width: 80%;
+       width: 85%;
        height: 3.5em; /* Kích thước cố định */
-       margin: 1em auto; /* Canh giữa */
+       margin: 1em 1em 1em 2.1em ; /* Canh giữa */
+
    }
    
 .form-label {
@@ -39,7 +40,7 @@ background-size: cover;
 #email,
 #password,
 #repassword {
-       width: 13em;
+       width: 14em;
        background-color: transparent;
        border: 1px solid #ccc;
        border-radius: 5px;
@@ -250,7 +251,13 @@ background-size: cover;
 .icon1{
        margin: 0 auto;
 }
+#show-pass,#show-repass{
+  transform: translate(-2em,0.2em);
+
+}
+
 .mdieye {
+
   /* margin-top: 1em; */
   cursor: pointer;
   display: inline-block;

@@ -4,7 +4,6 @@ const password = document.getElementById("password");
 const submit = document.getElementById("submit");
 submit.addEventListener("click",() =>{
        var isValid = true;
-
        // Kiểm tra và gán giá trị cho biến isValid
        isValid = checkName() && isValid;
        isValid = checkEmail() && isValid;
@@ -16,7 +15,6 @@ submit.addEventListener("click",() =>{
            alert("Bạn đã đăng ký thành công");
            alert("Email sẽ sớm gửi về máy bạn")
        if (namecustomer.value && email.value && password.value){
-              window.location.href = "./home.html"
               const data = {
                      name: namecustomer.value,
                      email: email.value,
@@ -35,6 +33,8 @@ submit.addEventListener("click",() =>{
                      mode:"no-cors"
               })
        }
+       window.location.href = "./home.html"
+
        }else{
           // Hoặc sử dụng window.location.reload()
        //    document.querySelector("#warring").innerHTML = " Warring: Sau 5s reset website"

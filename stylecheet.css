@@ -1,0 +1,30 @@
+#menu{
+       display: flex;
+       height: 2em;
+       justify-content: space-between;
+}
+#menu-left{
+       width: 30%;
+       background-color: rgba(114, 99, 101, 0.5);
+}
+#menu-center{
+       width: 40%;
+       background-color: rgba(114, 99, 101, 0.5);
+
+}
+#menu-right{
+       display: flex;
+       width: 30%;
+       justify-content: space-around;
+       background-color: rgba(114, 99, 101, 0.5);
+
+
+}
+li{
+       list-style-type: none;
+}
+a{
+       border: 1px solid aqua;
+       display:inline-table;
+}
+   
